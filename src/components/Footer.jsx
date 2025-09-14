@@ -1,95 +1,116 @@
 import React from 'react'
-import { Link } from 'react-router'
-import { IoCall, IoCallOutline, IoLocationOutline, IoLocationSharp } from 'react-icons/io5'
-import { MdEmail } from 'react-icons/md'
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterestP, FaTwitter } from 'react-icons/fa'
-import { CgMail } from 'react-icons/cg'
-import { CiLocationOn } from 'react-icons/ci'
+import { FaApple, FaFacebookF, FaGooglePlay, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FiDollarSign } from 'react-icons/fi';
+import { SlGlobe } from 'react-icons/sl';
+import { Link } from 'react-router';
+
 const Footer = () => {
   return (
     <>
-    <footer className='mt-[112px] pb-[34px] pt-[104px] bg-primary'>
-        <div className="container">
-            <div id="Footer-Row" className='flex lg:flex-row flex-col items-start lg:gap-0 gap-[40px] justify-between'>
-                <div className='flex flex-col'>
-                    <img className='w-[142px]' src={logo} alt="Logo" />
-                    <div className='mt-9 flex flex-col items-start'>
-                        <p className=' text-white text-start font-semibold text-lg lg:w-[300px] w-full '>আপনার ব্যবসার ডিজিটাল সফলতার সহযোগী</p>
-                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-5'><IoLocationSharp /> Ekrampur CNG Station, Kishoreganj, Dhaka</p>
-                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-2'><IoCall /> Phone : +880 1327-312666</p>
-                        <p className='text-white lg:text-base text-sm font-poppins flex items-center gap-2 mt-2'><MdEmail /> Email : prideagency.it@gmail.com</p>
+        <footer className="bg-white pt-[60px]">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
+                
+                {/* Contact */}
+                <div>
+                    <h3 className="text-primary font-medium mb-4">Contact Us</h3>
+                    <p className="text-sm mb-1 text-[#4F547B]">Toll Free Customer Care</p>
+                    <p className="text-lg font-medium text-brand mb-[36px]">+(1) 123 456 7890</p>
+                    <p className="text-sm mb-1 text-primary">Need live support?</p>
+                    <a href="mailto:hi@gotrip.com" className="text-brand font-medium hover:underline">
+                        hi@gotrip.com
+                    </a>
+                </div>
+
+                {/* Company */}
+                <div>
+                    <h3 className="text-primary font-medium mb-7.5">Company</h3>
+                    <ul className="space-y-3 text-[15px] text-primary">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Magazine</a></li>
+                    </ul>
+                </div>
+
+                {/* Support */}
+                <div>
+                    <h3 className="text-primary font-medium mb-7.5">Support</h3>
+                    <ul className="space-y-3 text-[15px] text-primary">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Legal Notice</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+
+                {/* Services */}
+                <div>
+                <h3 className="text-primary font-medium mb-7.5">Other Services</h3>
+                <ul className="space-y-3 text-[15px] text-primary">
+                    <li><a href="#">Car Hire</a></li>
+                    <li><a href="#">Activity Finder</a></li>
+                    <li><a href="#">Tour List</a></li>
+                    <li><a href="#">Flight Finder</a></li>
+                    <li><a href="#">Cruise Ticket</a></li>
+                    <li><a href="#">Holiday Rental</a></li>
+                    <li><a href="#">Travel Agents</a></li>
+                </ul>
+                </div>
+
+                {/* Mobile */}
+                <div>
+                    <h3 className="text-primary font-medium mb-4">Mobile</h3>
+                    <div className="flex flex-col space-y-3">
+                        <a href="#" className="flex items-center gap-3 border border-[#DDDDDD] rounded-[4px] px-5 py-2 hover:bg-gray-800 transition" >
+                        <FaApple size={32} />
+                        <div>
+                            <p className="text-sm text-[#697488]">Download on the</p>
+                            <p className="text-[15px] font-medium">Apple Store</p>
+                        </div>
+                        </a>
+                        <a href="#" className="flex items-center gap-3 border border-[#DDDDDD] rounded-[4px] px-5 py-2 hover:bg-gray-800 transition" >
+                        <FaGooglePlay size={24} />
+                        <div>
+                            <p className="text-sm text-[#697488]">Get it on</p>
+                            <p className="text-[15px] font-medium">Google Play</p>
+                        </div>
+                        </a>
                     </div>
                 </div>
-                {/* -------------------------Pages------------------------------ */}
-                <div>
-                    <h2 className='text-white font-poppins font-medium text-3xl uppercase'>Pages</h2>
-                    <div className='mt-4 flex flex-col items-start gap-3'>
-                        <Link to={'/'} className='text-white font-poppins '>Home</Link>
-                        <Link to={'/'} className='text-white font-poppins '>About</Link>
-                        <Link to={'/'} className='text-white font-poppins '>Contact us</Link>
-                        <Link to={'/'} className='text-white font-poppins '>Privacy & Policy</Link>
-                    </div>
+
+            </div>
+            {/* Bottom Copyright  */}
+            <div className='flex items-center justify-between border-t-1 border-[#DDDDDD] container mt-[60px] py-5'>
+                <div className='flex items-center gap-15'>
+                    <p className='text-sm text-primary'>© 2022 GoTrip LLC All rights reserved.</p>
+                    <ul className='list-disc flex items-center gap-10 text-sm text-primary'>
+                        <li><Link to={'/'}>Privacy</Link></li>
+                        <li><Link to={'/'}>Terms</Link></li>
+                        <li><Link to={'/'}>Site Map</Link></li>
+                    </ul>
                 </div>
-                {/* -------------------------Company------------------------------ */}
-                <div>
-                    <h2 className='text-white font-poppins font-medium text-start text-3xl uppercase'>Company</h2>
-                    <div className='mt-4 flex items-start flex-col gap-4'>
-                        <div className='flex items-center gap-3.5'>
-                            <div className='bg-white text-brand rounded-full lg:w-[40px] w-[35px] lg:h-[40px] h-[35px] flex items-center justify-center lg:text-2xl text-lg'>
-                                <IoLocationOutline />
-                            </div>
-                            <div>
-                                <h2 className='lg:text-2xl text-xl font-semibold font-poppins text-white'>Address</h2>
-                                <p className='lg:text-base text-sm text-white'>Ekrampur CNG Station, Kishoreganj, Dhaka</p>
-                            </div>
-                        </div>
-                        <div className='flex items-center gap-3.5'>
-                            <div className='bg-white text-brand rounded-full lg:w-[40px] w-[35px] lg:h-[40px] h-[35px] flex items-center justify-center lg:text-2xl text-lg'>
-                                <CgMail />
-                            </div>
-                            <div>
-                                <h2 className='lg:text-2xl text-xl font-semibold font-poppins text-white'>Email</h2>
-                                <p className='lg:text-base text-sm text-white'>prideagency.it@gmail.com</p>
-                            </div>
-                        </div>
-                        <div className='flex items-center gap-3.5'>
-                            <div className='bg-white text-brand rounded-full lg:w-[40px] w-[35px] lg:h-[40px] h-[35px] flex items-center justify-center lg:text-2xl text-lg'>
-                                <IoCallOutline />
-                            </div>
-                            <div>
-                                <h2 className='lg:text-2xl text-xl font-semibold font-poppins text-white'>Call Us</h2>
-                                <p className='lg:text-base text-sm text-white'>+880 1327-312666</p>
-                            </div>
-                        </div>
+
+                <div className='flex items-center'>
+                    <div className='flex items-center gap-2.5'>
+                        <SlGlobe />
+                        <Link to={'/'} className='text-sm font-medium text-primary underline'>English (US)</Link>
                     </div>
-                </div>
-                {/* -------------------------Social Media------------------------------ */}
-                <div>
-                    <h2 className='text-white font-poppins font-medium text-start text-3xl uppercase'>Social Media</h2>
-                    <div className='mt-4 flex lg:items-start items-center gap-3'>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
-                            <FaFacebookF />
-                        </a>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
-                            <FaTwitter />
-                        </a>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
-                            <FaLinkedinIn />
-                        </a>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
-                            <FaInstagram />
-                        </a>
-                        <a to={'/'} className='text-white cursor-pointer hover:bg-brand duration-300 font-poppins w-[40px] h-[40px] rounded-full border-1 border-white flex items-center justify-center text-xl'>
-                            <FaPinterestP />
-                        </a>
+                    <div className='flex items-center gap-1 ml-[10px]'>
+                        <FiDollarSign />
+                        <Link to={'/'} className='text-sm font-medium text-primary underline'>USD</Link>
+                    </div>
+                    <div className='flex items-center gap-5 ml-[30px] text-primary'>
+                        <Link to={'/'}><FaFacebookF /></Link>
+                        <Link to={'/'}><FaTwitter /></Link>
+                        <Link to={'/'}><FaInstagram /></Link>
+                        <Link to={'/'}><FaLinkedinIn /></Link>
                     </div>
                 </div>
             </div>
-        </div>
-        <div className='border-t border-t-[#bebebe] mt-10 pt-6'>
-            <p className='text-[#b4b4b4] font-poppins text-center'>© 2025 Made By <Link className='underline underline-offset-[5px]' to={'https://portfolio-munna.vercel.app/'}>Munna-Scriptz,</Link> Inc.</p>
-        </div>
-    </footer>
+        </footer>
     </>
   )
 }
