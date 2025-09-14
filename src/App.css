@@ -1,4 +1,7 @@
 /* -----------------------Common Css------------------------- */
+body{
+    font-family: "Jost", sans-serif;
+}
 #Banner::after{
     content: '';
     position: absolute;
