@@ -17,7 +17,7 @@ const Footer = () => {
                     <p className="text-lg font-medium text-brand mb-[36px]">+(1) 123 456 7890</p>
                     <p className="text-sm mb-1 text-primary">Need live support?</p>
                     <a href="mailto:hi@gotrip.com" className="text-brand font-medium hover:underline">
-                        hi@gotrip.com
+                        munnascriptz@gmail.com
                     </a>
                 </div>
 
@@ -25,12 +25,12 @@ const Footer = () => {
                 <div>
                     <h3 className="text-primary font-medium mb-7.5">Company</h3>
                     <ul className="space-y-3 text-[15px] text-primary">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Gift Cards</a></li>
-                        <li><a href="#">Magazine</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">About Us</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Careers</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Blog</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Press</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Gift Cards</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Magazine</a></li>
                     </ul>
                 </div>
 
@@ -38,11 +38,11 @@ const Footer = () => {
                 <div>
                     <h3 className="text-primary font-medium mb-7.5">Support</h3>
                     <ul className="space-y-3 text-[15px] text-primary">
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Legal Notice</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Sitemap</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Contact</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Legal Notice</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Privacy Policy</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Terms & Conditions</a></li>
+                        <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Sitemap</a></li>
                     </ul>
                 </div>
 
@@ -50,13 +50,13 @@ const Footer = () => {
                 <div>
                 <h3 className="text-primary font-medium mb-7.5">Other Services</h3>
                 <ul className="space-y-3 text-[15px] text-primary">
-                    <li><a href="#">Car Hire</a></li>
-                    <li><a href="#">Activity Finder</a></li>
-                    <li><a href="#">Tour List</a></li>
-                    <li><a href="#">Flight Finder</a></li>
-                    <li><a href="#">Cruise Ticket</a></li>
-                    <li><a href="#">Holiday Rental</a></li>
-                    <li><a href="#">Travel Agents</a></li>
+                    <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Car Hire</a></li>
+                    <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Activity Finder</a></li>
+                    <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Tour List</a></li>
+                    <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Flight Finder</a></li>
+                    <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Cruise Ticket</a></li>
+                    <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Holiday Rental</a></li>
+                    <li><a className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' href="#">Travel Agents</a></li>
                 </ul>
                 </div>
 
@@ -64,17 +64,17 @@ const Footer = () => {
                 <div>
                     <h3 className="text-primary font-medium mb-4">Mobile</h3>
                     <div className="flex flex-col space-y-3">
-                        <a href="#" className="flex items-center gap-3 border border-[#DDDDDD] rounded-[4px] px-5 py-2 hover:bg-gray-800 transition" >
+                        <a href="#" className="flex items-center gap-3 border border-[#DDDDDD] group rounded-[4px] px-5 py-2 hover:bg-gray-800 hover:text-white transition" >
                         <FaApple size={32} />
                         <div>
-                            <p className="text-sm text-[#697488]">Download on the</p>
+                            <p className="text-sm text-[#697488] group-hover:text-white">Download on the</p>
                             <p className="text-[15px] font-medium">Apple Store</p>
                         </div>
                         </a>
-                        <a href="#" className="flex items-center gap-3 border border-[#DDDDDD] rounded-[4px] px-5 py-2 hover:bg-gray-800 transition" >
+                        <a href="#" className="flex items-center gap-3 border border-[#DDDDDD] rounded-[4px] px-5 py-2 hover:bg-gray-800 hover:text-white transition" >
                         <FaGooglePlay size={24} />
                         <div>
-                            <p className="text-sm text-[#697488]">Get it on</p>
+                            <p className="text-sm text-[#697488] group-hover:text-white">Get it on</p>
                             <p className="text-[15px] font-medium">Google Play</p>
                         </div>
                         </a>
@@ -85,11 +85,11 @@ const Footer = () => {
             {/* Bottom Copyright  */}
             <div className='flex items-center justify-between border-t-1 border-[#DDDDDD] container mt-[60px] py-5'>
                 <div className='flex items-center gap-15'>
-                    <p className='text-sm text-primary'>© 2022 GoTrip LLC All rights reserved.</p>
+                    <p className='text-sm text-primary'>© 2022 GoTrip By <Link className='font-medium underline' to={'https://portfolio-munna.vercel.app/'}>Munna Scriptz</Link> All rights reserved.</p>
                     <ul className='list-disc flex items-center gap-10 text-sm text-primary'>
-                        <li><Link to={'/'}>Privacy</Link></li>
-                        <li><Link to={'/'}>Terms</Link></li>
-                        <li><Link to={'/'}>Site Map</Link></li>
+                        <li><Link className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' to={'/'}>Privacy</Link></li>
+                        <li><Link className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' to={'/'}>Terms</Link></li>
+                        <li><Link className='relative after:absolute after:left-0 after:bottom-0 after:bg-primary after:w-0 hover:after:w-full after:h-[1px] after:duration-500' to={'/'}>Site Map</Link></li>
                     </ul>
                 </div>
 
@@ -103,10 +103,10 @@ const Footer = () => {
                         <Link to={'/'} className='text-sm font-medium text-primary underline'>USD</Link>
                     </div>
                     <div className='flex items-center gap-5 ml-[30px] text-primary'>
-                        <Link to={'/'}><FaFacebookF /></Link>
-                        <Link to={'/'}><FaTwitter /></Link>
-                        <Link to={'/'}><FaInstagram /></Link>
-                        <Link to={'/'}><FaLinkedinIn /></Link>
+                        <Link className='hover:text-brand duration-300' to={'/'}><FaFacebookF /></Link>
+                        <Link className='hover:text-brand duration-300' to={'/'}><FaTwitter /></Link>
+                        <Link className='hover:text-brand duration-300' to={'/'}><FaInstagram /></Link>
+                        <Link className='hover:text-brand duration-300' to={'/'}><FaLinkedinIn /></Link>
                     </div>
                 </div>
             </div>
