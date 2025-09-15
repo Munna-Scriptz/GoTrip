@@ -1,16 +1,16 @@
 import React from 'react'
 import { Outlet } from 'react-router'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import ResNavbar from '../components/ResNavbar'
+import Navbar from '../components/Common/Navbar'
+import Footer from '../components/Common/Footer'
+import ResNavbar from '../components/Common/ResNavbar'
 
 const LayoutOne = () => {
   return (
     <>
-        <Navbar/>
-        {/* <ResNavbar/> */}
-        <Outlet/>
-        <Footer/>
+      <Navbar/>
+      {/* <ResNavbar/> */}
+      <Outlet/>
+      <Footer/>
     </>
   )
 }
