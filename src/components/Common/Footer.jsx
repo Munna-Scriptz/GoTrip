@@ -7,7 +7,7 @@ import { Link } from 'react-router';
 const Footer = () => {
   return (
     <>
-        <footer className="bg-white pt-[60px] mt-[120px]">
+        <footer className="bg-white pt-[60px]">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
                 
                 {/* Contact */}
