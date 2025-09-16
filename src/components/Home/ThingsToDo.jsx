@@ -14,12 +14,12 @@ const ThingsToDo = () => {
                         <img className='select-none' src={thingsImg1} alt="Things To Do" />
                         <div className='w-[294px] mt-[70px] ml-[70px] absolute top-0 left-0'>
                             <h2 className='text-white font-semibold text-[40px] mb-7.5'>Things to do on your trip</h2>
-                            <Link to={'/'} class="overflow-hidden w-[180px] h-[60px] flex items-center justify-center bg-white rounded-[5px] border-none cursor-pointer relative z-10 group">
+                            <Link to={'/'} className="overflow-hidden w-[180px] h-[60px] flex items-center justify-center bg-white rounded-[5px] border-none cursor-pointer relative z-10 group">
                                 <span className='flex items-center gap-[13px] text-base font-medium text-primary'>Experiences</span>
-                                <span class="absolute w-full h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                                <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#051036c4] rotate-8 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                                <span class="absolute w-36 h-32 -top-8 -left-2 bg-primary rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                <span class="group-hover:opacity-100 text-white group-hover:duration-1000 duration-100 opacity-0 absolute top-[18px] left-10 z-10 flex items-center gap-[13px]" >Explore Now!</span>
+                                <span className="absolute w-full h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                                <span className="absolute w-36 h-32 -top-8 -left-2 bg-[#051036c4] rotate-8 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                                <span className="absolute w-36 h-32 -top-8 -left-2 bg-primary rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                                <span className="group-hover:opacity-100 text-white group-hover:duration-1000 duration-100 opacity-0 absolute top-[18px] left-10 z-10 flex items-center gap-[13px]" >Explore Now!</span>
                             </Link>
                         </div>
                     </div>
@@ -29,12 +29,12 @@ const ThingsToDo = () => {
                         <div className='w-[375px] mt-[70px] ml-[70px] absolute top-0 left-0'>
                             <p className='text-white text-[15px] font-medium mb-2.5'>Enjoy Summer Deals</p>
                             <h2 className='text-white font-semibold text-[40px] mb-7.5'>Up to 70% Discount!</h2>
-                            <Link to={'/'} class="overflow-hidden w-[180px] h-[60px] flex items-center justify-center bg-white rounded-[5px] border-none cursor-pointer relative z-10 group">
+                            <Link to={'/'} className="overflow-hidden w-[180px] h-[60px] flex items-center justify-center bg-white rounded-[5px] border-none cursor-pointer relative z-10 group">
                                 <span className='flex items-center gap-[13px] text-base font-medium text-primary'>Experiences</span>
-                                <span class="absolute w-full h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
-                                <span class="absolute w-36 h-32 -top-8 -left-2 bg-[#051036c4] rotate-8 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
-                                <span class="absolute w-36 h-32 -top-8 -left-2 bg-primary rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                                <span class="group-hover:opacity-100 text-white group-hover:duration-1000 duration-100 opacity-0 absolute top-[18px] left-10 z-10 flex items-center gap-[13px]" >Explore Now!</span>
+                                <span className="absolute w-full h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                                <span className="absolute w-36 h-32 -top-8 -left-2 bg-[#051036c4] rotate-8 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                                <span className="absolute w-36 h-32 -top-8 -left-2 bg-primary rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                                <span className="group-hover:opacity-100 text-white group-hover:duration-1000 duration-100 opacity-0 absolute top-[18px] left-10 z-10 flex items-center gap-[13px]" >Explore Now!</span>
                             </Link>
                         </div>
                     </div>

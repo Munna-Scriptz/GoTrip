@@ -16,3 +16,18 @@ body{
     z-index: -1;
     
 }
+
+/* -----------------------Recommend Slider Dots  */
+#Recommend .slick-dots {
+    bottom: -64px !important;
+    z-index: 1 !important;
+}
+#Recommend .slick-dots li {
+    margin: 0;
+}
+#Recommend .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #3554D1 !important;
+    transform: scale(1.1) !important;
+    transition: all ease-in-out 300ms;
+}
