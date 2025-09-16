@@ -12,7 +12,7 @@ import Slider from 'react-slick';
 const Destination = () => {
         const [center, setCenter] = useState(0);
 
-        function NextArrow({ onClick }) {
+    function NextArrow({ onClick }) {
         return (
             <div
             onClick={onClick}
@@ -34,24 +34,24 @@ const Destination = () => {
       );
     }
     
-        const settings = {
-            centerMode: true,
-            centerPadding: "0px",
-            slidesToShow: 3,
-            infinite: true,
-            speed: 500,
-            beforeChange: (oldIndex, newIndex) => setCenter(newIndex),
-            arrows: true,
-            nextArrow: <NextArrow />,
-            prevArrow: <PrevArrow />,
-        };
-        
-        const slides = [
-            { img: image1, name: "New York"},
-            { img: image2, name: "London"},
-            { img: image3, name: "Rome"},
-            { img: image4, name: "Barcelona"},
-      ];
+    const settings = {
+        centerMode: true,
+        centerPadding: "0px",
+        slidesToShow: 3,
+        infinite: true,
+        speed: 500,
+        beforeChange: (oldIndex, newIndex) => setCenter(newIndex),
+        arrows: true,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
+    }
+     
+    const slides = [
+        { img: image1, name: "New York"},
+        { img: image2, name: "London"},
+        { img: image3, name: "Rome"},
+        { img: image4, name: "Barcelona"},
+    ]
   return (
     <>
         <section id='Destination'>
@@ -82,6 +82,10 @@ const Destination = () => {
                             ))}
                         </Slider>
                     </div>
+                </div>
+                {/* ---------------------Bottom Border--------------------- */}
+                <div className='bg-primary w-[348px] h-[3px] rounded-[4px] mt-15'>
+
                 </div>
             </div>
         </section>
