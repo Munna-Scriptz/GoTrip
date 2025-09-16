@@ -1,8 +1,17 @@
 import React from 'react'
 import { FaStar } from 'react-icons/fa'
 import SingleReview from '../Common/SingleReview'
+import Slider from 'react-slick'
 
 const Reviews = () => {
+    const settings = {
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    }
   return (
     <>
         <section id='Reviews' className='mt-[120px] py-[120px] bg-[#E5F0FD]'>
@@ -31,8 +40,16 @@ const Reviews = () => {
                         </div>
                     </div>
                     {/* --------------------Right Side-------------------- */}
-                    <div>
-                        <SingleReview/>
+                    <div className='w-[620px] shrink-0'>
+                        <div className="slider-container">
+                            <Slider {...settings}>
+                                <SingleReview/>
+                                <SingleReview/>
+                                <SingleReview/>
+                                <SingleReview/>
+                            </Slider>
+                        </div>
+                        {/* -------------Dots And Arrow----------------- */}
                         <div className='mt-10'>
                             <div className='flex items-center gap-45'>
                                 <div className='text-primary font-semibold text-base cursor-pointer z-10 w-[30px] h-[30px] hover:bg-brand rounded-full duration-300 hover:text-white flex items-center justify-center' onClick={() => document.querySelector(".slick-prev")?.click()}>

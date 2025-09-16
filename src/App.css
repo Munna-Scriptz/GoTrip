@@ -31,3 +31,24 @@ body{
     transform: scale(1.1) !important;
     transition: all ease-in-out 300ms;
 }
+/* -----------------------Reviews Slider Dots  */
+#Reviews .slick-dots {
+    bottom: -73px !important;
+    z-index: 1 !important;
+    text-align: start !important;
+    padding-left: 50px !important;
+}
+#Reviews .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    background: #051036 !important;
+}
+#Reviews .slick-dots li button:before {
+    content: '' !important;
+    transition: 500ms ease-in-out all;
+    opacity: .3 !important;
+    width: 24px !important;
+    height: 4px !important;
+    border-radius: 10px;
+    background: #DDDDDD;
+
+}
