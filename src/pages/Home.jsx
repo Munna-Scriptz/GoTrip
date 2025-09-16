@@ -3,6 +3,8 @@ import Banner from '../components/Home/Banner'
 import Destination from '../components/Home/Destination'
 import ThingsToDo from '../components/Home/ThingsToDo'
 import Recommend from '../components/Home/Recommend'
+import Services from '../components/Home/Services'
+import Reviews from '../components/Home/Reviews'
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Destination/>
       <ThingsToDo/>
       <Recommend/>
+      <Services/>
+      <Reviews/>
     </>
   )
 }
