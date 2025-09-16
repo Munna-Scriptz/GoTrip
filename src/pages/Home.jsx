@@ -5,6 +5,8 @@ import ThingsToDo from '../components/Home/ThingsToDo'
 import Recommend from '../components/Home/Recommend'
 import Services from '../components/Home/Services'
 import Reviews from '../components/Home/Reviews'
+import Inspiration from '../components/Home/Inspiration'
+import Places from '../components/Home/Places'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <Recommend/>
       <Services/>
       <Reviews/>
+      <Inspiration/>
+      <Places/>
     </>
   )
 }
